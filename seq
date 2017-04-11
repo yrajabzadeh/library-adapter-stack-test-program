@@ -24,7 +24,7 @@ intmain()
 	
 	stack<int,list<int>> intListStack;
 	
-	//push the values 0-9 onto eahc stack
+	//push the values 0-9 onto each stack
 	
 	cout<<"Pushing onto intDequeStack:";
 	pushElements(intDequeStack);
