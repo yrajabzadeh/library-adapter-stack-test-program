@@ -1,12 +1,11 @@
+//stack in C++ programming
 #include <iostream>
 #include <stack>
 #include <vector>
 #include <list>
 
 using namespace std;
-
 //library adapter stack test program
-
 template < typename T > void pushElements (T &stackRef);
 template < typename T > void pushElements (T &stackRef);
 
@@ -42,7 +41,7 @@ intmain()
 	cout<<"\nPopping from intListStack:";
 	popElements(intListStack);
 	cout<<endl;
-}
+} // end main
 
 //push elements onto stack object to which stackRef refers
 
@@ -64,5 +63,5 @@ template<typename T> void popElements (T &stackRef)
 	{
 		cout<<stackRef.top()<<' '; //view (and display)top element
 		stackRef.pop(); //remove top element
-	}
+	} // end while
 } //end function popElements
